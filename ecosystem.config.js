@@ -5,9 +5,9 @@ module.exports = {
     instances: max,
     autorestart: true,
     watch: false,
-    cwd: '/opt/vogo/iot-collector-consumer',
+    cwd: '/opt/vogo/iot-collector-consumer/',
     exec_mode  : "cluster",
-    max_memory_restart: '1G',
+//    max_memory_restart: '1G',
     env: {
       NODE_ENV: 'production'
     },
