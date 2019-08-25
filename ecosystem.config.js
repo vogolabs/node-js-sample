@@ -2,7 +2,7 @@ module.exports = {
   apps : [{
     name: 'iot_collector_app_kafka_consumer',
     script: 'index.js',
-    instances: max,
+    instances: 'max',
     autorestart: true,
     watch: false,
     cwd: '/opt/vogo/iot-collector-consumer/',
